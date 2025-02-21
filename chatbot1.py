@@ -3,12 +3,10 @@ from colorama import Fore, init
 # Initialize colorama for colored text
 init(autoreset=True)
 
-
 def transport_chatbot():
-    # Greet and ask for user's name
-    user_name = input(
-        "Hello! Welcome to Transport Helpdesk. Please enter your name: ")
-    print(f"\nHi {user_name}! How can I assist you today?")
+    user_name = "User"  # Default name instead of input()
+    print(f"Hello, {user_name}! How can I assist you today?")
+
 
     while True:
         # Display menu options
